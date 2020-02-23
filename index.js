@@ -22,7 +22,7 @@ inquirer
         console.log(answers);
         let file = `
         # Title
-        The user first name is ${answers.firstname}
+        Project Title ${answers.projectTitle}
         `
         fs.writeFile('README.md', file, () => {})
     });
